@@ -4,7 +4,7 @@ Exercice Node Express, formation Dev Front-End IbCegos
 
 (basic training to get used to node Express / axios)
 
-# To laucnh
+# To launch
 
 - install dependencies with
 

@@ -38,15 +38,22 @@ export default class UserController {
   update = async (req: Request, res: Response) => {
     const id = req.params.id;
     const body = req.body;
-    const data = await this.service.updateUserInfo(body, +id);
-    res.send(data);
+    try {
+      const data = await this.service.updateUserInfo(body, +id);
+      res.send(data);
+    } catch (error) {
+      res.send(error);
+    }
   };
 
   patch = async (req: Request, res: Response): Promise<void> => {
     const id = req.params.id;
     const body = req.body;
-    const data = await this.service.patchUserInfo(+id, body);
-
-    res.send(data);
+    try {
+      const data = await this.service.patchUserInfo(+id, body);
+      res.send(data);
+    } catch (error) {
+      res.send(error);
+    }
   };
 }

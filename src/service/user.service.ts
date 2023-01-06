@@ -56,14 +56,15 @@ export default class UserService {
     console.log(check);
     if (typeof check == "string") {
       return this.create(newUser);
-    } else {
-      return this.repository.update(id, newUser).catch((err) => err);
     }
+    return this.repository.update(id, newUser).catch((err) => err);
   };
 
   patchUserInfo = async (id: number, userData: User) => {
     if (userData.id != id) throw "objet corrompu";
 
-    return this.repository.patch(id, userData).catch((err) => err);
+    return this.repository
+      .patch(id, userData)
+      .catch((err) => "erreur lors de la mise a jour");
   };
 }

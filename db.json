@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nom": "Jewar",
+      "prenom": "Des",
+      "date_de_naissance": "10/21/2022",
+      "date_inscription": "5/16/2022",
+      "nationalite": "Russia"
+    },
+    {
+      "id": 2,
+      "nom": "Polack",
+      "prenom": "Zorah",
+      "date_de_naissance": "9/3/2022",
+      "date_inscription": "3/20/2022",
+      "nationalite": "Colombia"
+    },
+    {
+      "id": 3,
+      "nom": "Callington",
+      "prenom": "Alfred",
+      "date_de_naissance": "11/2/2022",
+      "date_inscription": "12/3/2022",
+      "nationalite": "China"
+    },
+    {
+      "id": 4,
+      "nom": "Ruos",
+      "prenom": "Reuben",
+      "date_de_naissance": "10/6/2022",
+      "date_inscription": "1/19/2022",
+      "nationalite": "Norway"
+    },
+    {
+      "id": 5,
+      "nom": "Pendock",
+      "prenom": "Russell",
+      "date_de_naissance": "1/11/2022",
+      "date_inscription": "10/16/2022",
+      "nationalite": "Indonesia"
+    },
+    {
+      "id": 6,
+      "nom": "Pestor",
+      "prenom": "Germaine",
+      "date_de_naissance": "9/1/2022",
+      "date_inscription": "5/10/2022",
+      "nationalite": "China"
+    },
+    {
+      "id": 7,
+      "nom": "Leon",
+      "prenom": "Nissy",
+      "date_de_naissance": "7/14/2022",
+      "date_inscription": "4/27/2022",
+      "nationalite": "China"
+    },
+    {
+      "id": 8,
+      "nom": "Donaghy",
+      "prenom": "Erma",
+      "date_de_naissance": "9/18/2022",
+      "date_inscription": "2/18/2022",
+      "nationalite": "Tanzania"
+    },
+    {
+      "id": 9,
+      "nom": "Haresign",
+      "prenom": "Arie",
+      "date_de_naissance": "6/28/2022",
+      "date_inscription": "5/7/2022",
+      "nationalite": "China"
+    },
+    {
+      "id": 10,
+      "nom": "Blaxland",
+      "prenom": "Heriberto",
+      "date_de_naissance": "5/17/2022",
+      "date_inscription": "11/24/2022",
+      "nationalite": "Ivory Coast"
+    }
+  ]
+}
